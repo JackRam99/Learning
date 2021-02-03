@@ -42,12 +42,30 @@ nav ul li a{
     margin: 10px;
     background-color: #f3efef;
 }
+
+.coola:hover,
+.coolb:hover,
+.coolc:hover,
+.coold:hover
+{
+    background-color:  rgb(125, 238, 172);
+    
+}
 .allcool{
    display: flex;
    
 }
 
-.profting{
-   width: 100px;
-   height: 100px; 
+.profting, .description{
+    align-items: center;
+    margin: 10px;
+}
+.belowit{
+    margin-top: 15px;
+    margin-left: 100px;
+    width: 1100px; 
+    height: 300px;
+    display: flex;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    
 }
